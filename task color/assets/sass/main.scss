@@ -1,0 +1,85 @@
+body {
+    background-image: url(https://previews.123rf.com/images/tony4urban/tony4urban1111/tony4urban111100056/11326958-very-big-size-abstract-rainbow-background.jpg);
+
+}
+
+.container {
+    margin-top: 10px;
+    position: relative;
+    height: 95vh;
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: lightblue;
+        opacity: .7;
+        height: 100px;
+        border-radius: 20px;
+        color: red;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .dropzone {
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        background-color: transparent;
+        border: 3px solid white;
+        color: white;
+        position: absolute;
+        right: 50px;
+        top: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-size: 30px;
+        }
+    }
+
+    .colors {
+        position: absolute;
+
+        .color {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid white;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        div[data-id="red"] {
+            background-color: red;
+            opacity: 0.9;
+        }
+
+        div[data-id="green"] {
+            background-color: green;
+            opacity: 0.9;
+        }
+
+        div[data-id="blue"] {
+            background-color: blue;
+            opacity: 0.9;
+        }
+        .rgb{
+            position: absolute;
+            left: 400px;
+            top: 300px;
+        }
+    }
+
+    .forms {
+        position: absolute;
+        right: 100px;
+        margin-top: 20px;
+
+    }
+}
